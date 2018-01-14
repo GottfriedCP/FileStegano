@@ -63,8 +63,6 @@
             this.btnBrowseStego = new System.Windows.Forms.Button();
             this.tabHelp = new System.Windows.Forms.TabPage();
             this.tbHelp = new System.Windows.Forms.TextBox();
-            this.tabAbout = new System.Windows.Forms.TabPage();
-            this.tbAbout = new System.Windows.Forms.TextBox();
             this.openCoverFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.openMessageFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.saveStegoFileDialog = new System.Windows.Forms.SaveFileDialog();
@@ -80,7 +78,6 @@
             this.tabRecover.SuspendLayout();
             this.groupBoxStego.SuspendLayout();
             this.tabHelp.SuspendLayout();
-            this.tabAbout.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -90,7 +87,6 @@
             this.tabMain.Controls.Add(this.tabHide);
             this.tabMain.Controls.Add(this.tabRecover);
             this.tabMain.Controls.Add(this.tabHelp);
-            this.tabMain.Controls.Add(this.tabAbout);
             this.tabMain.Location = new System.Drawing.Point(0, 0);
             this.tabMain.Name = "tabMain";
             this.tabMain.SelectedIndex = 0;
@@ -444,30 +440,6 @@
             this.tbHelp.TabIndex = 0;
             this.tbHelp.Text = resources.GetString("tbHelp.Text");
             // 
-            // tabAbout
-            // 
-            this.tabAbout.Controls.Add(this.tbAbout);
-            this.tabAbout.Location = new System.Drawing.Point(4, 25);
-            this.tabAbout.Name = "tabAbout";
-            this.tabAbout.Size = new System.Drawing.Size(616, 225);
-            this.tabAbout.TabIndex = 3;
-            this.tabAbout.Text = "About";
-            this.tabAbout.UseVisualStyleBackColor = true;
-            // 
-            // tbAbout
-            // 
-            this.tbAbout.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbAbout.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbAbout.Location = new System.Drawing.Point(78, 83);
-            this.tbAbout.Multiline = true;
-            this.tbAbout.Name = "tbAbout";
-            this.tbAbout.ReadOnly = true;
-            this.tbAbout.Size = new System.Drawing.Size(450, 62);
-            this.tbAbout.TabIndex = 0;
-            this.tbAbout.Text = "Created by Gottfried Prasetyadi \r\n\r\nas partial fulfillment requirements to achiev" +
-    "e undergraduate degree";
-            this.tbAbout.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // openCoverFileDialog
             // 
             this.openCoverFileDialog.InitialDirectory = "Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments)";
@@ -500,7 +472,7 @@
             // lblStatus
             // 
             this.lblStatus.Name = "lblStatus";
-            this.lblStatus.Size = new System.Drawing.Size(455, 17);
+            this.lblStatus.Size = new System.Drawing.Size(463, 17);
             this.lblStatus.Spring = true;
             this.lblStatus.Text = "Ready";
             this.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -509,8 +481,8 @@
             // 
             this.lblCopyright.ForeColor = System.Drawing.Color.Gray;
             this.lblCopyright.Name = "lblCopyright";
-            this.lblCopyright.Size = new System.Drawing.Size(154, 17);
-            this.lblCopyright.Text = "[v 1.1.0] 2017 - G. Prasetyadi";
+            this.lblCopyright.Size = new System.Drawing.Size(146, 17);
+            this.lblCopyright.Text = "v 1.1.1 2017 - G. Prasetyadi";
             this.lblCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // openStegoFileDialog
@@ -547,8 +519,6 @@
             this.groupBoxStego.PerformLayout();
             this.tabHelp.ResumeLayout(false);
             this.tabHelp.PerformLayout();
-            this.tabAbout.ResumeLayout(false);
-            this.tabAbout.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -566,7 +536,6 @@
         private System.Windows.Forms.Label lblFileNameCover;
         private System.Windows.Forms.Button btnBrowseCover;
         private System.Windows.Forms.TabPage tabHelp;
-        private System.Windows.Forms.TabPage tabAbout;
         private System.Windows.Forms.GroupBox groupBoxMessage;
         private System.Windows.Forms.Label lblMessageFileType;
         private System.Windows.Forms.Label lblMessageFileSize;
@@ -601,7 +570,6 @@
         private System.Windows.Forms.OpenFileDialog openStegoFileDialog;
         private System.Windows.Forms.SaveFileDialog saveExtractedFileDialog;
         private System.Windows.Forms.TextBox tbHelp;
-        private System.Windows.Forms.TextBox tbAbout;
     }
 }
 

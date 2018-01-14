@@ -118,18 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="tbHelp.Text" xml:space="preserve">
-    <value>Hiding file
-    1. Choose a cover/carrier file (a decoy file which you want the secret file embedded into).
-    2. Choose a file to be hidden in the carrier file. 
-    3. Enter a secret passphrase.
-    4. Click 'Hide'.
-    5. Specify where the generated stego-file will be saved, including the filename.
+    <value>Hiding a file
+    1. Choose a cover file,
+    2. Choose a secret file, 
+    3. Enter a secret passphrase,
+    4. Click 'Hide',
+    5. Specify where the generated stego-file will be saved.
 
-Recovering the hidden file
-    1. Choose a valid stego file.
-    2. Enter the secret passphrase.
-    3. Click 'Recover'.
-    4. If the key is correct and the file is valid, a prompt to specify the directory to save the recovered file will be shown.</value>
+Recovering hidden file
+    1. Choose a valid stego-file,
+    2. Enter the secret passphrase,
+    3. Click 'Recover',
+    4. If passphrase and file are valid, a prompt to specify the directory will appear.</value>
   </data>
   <metadata name="openCoverFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>

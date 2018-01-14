@@ -1,4 +1,6 @@
-﻿using System;
+﻿// originally created by Craig Phillips (CraigTP)
+// enhanced to work on array of bytes
+using System;
 using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
