@@ -1,5 +1,5 @@
 ﻿// originally created by Craig Phillips (CraigTP)
-// enhanced to work on array of bytes
+// modified to work on array of bytes by Gottfried Prasetyadi
 using System;
 using System.IO;
 using System.Linq;
