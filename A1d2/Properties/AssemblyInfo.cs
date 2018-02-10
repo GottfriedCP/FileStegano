@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("FileStegano")]
-[assembly: AssemblyDescription("Encrypt and hide data inside a file")]
+[assembly: AssemblyDescription("Encrypt and hide file inside a file")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Gottfried Prasetyadi")]
 [assembly: AssemblyProduct("FileStegano")]
@@ -33,4 +33,4 @@ using System.Runtime.InteropServices;
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.1.0.0")]
+[assembly: AssemblyFileVersion("1.1.1.0")]
